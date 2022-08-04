@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{B6872772-3917-4784-85DA-09F131DB2EF6}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		fathym-logo.png = fathym-logo.png
+		LICENSE = LICENSE
+		NuGet.config = NuGet.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Develop", "Develop", "{F8270AB2-FF33-4A87-A647-689D821CFAA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fathym.LCU.Services", "Fathym.LCU.Services\Fathym.LCU.Services.csproj", "{C5156F42-9BFD-461C-BC76-F00E81AC8FE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5156F42-9BFD-461C-BC76-F00E81AC8FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5156F42-9BFD-461C-BC76-F00E81AC8FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5156F42-9BFD-461C-BC76-F00E81AC8FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5156F42-9BFD-461C-BC76-F00E81AC8FE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C5156F42-9BFD-461C-BC76-F00E81AC8FE7} = {F8270AB2-FF33-4A87-A647-689D821CFAA0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6590118-CCE6-471D-B254-33A4CFC6DC80}
+	EndGlobalSection
+EndGlobal
