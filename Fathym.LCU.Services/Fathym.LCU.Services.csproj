@@ -51,8 +51,8 @@
 
 
   <ItemGroup>
-		<PackageReference Include="Fathym.LCU.Graphs" Version="3.13.6" />
-		<PackageReference Include="Fathym.LCU.Hosting" Version="3.13.6" />
+		<PackageReference Include="Fathym.LCU.Graphs" Version="3.13.9" />
+		<PackageReference Include="Fathym.LCU.Hosting" Version="3.13.9" />
 		<PackageReference Include="Microsoft.Azure.Functions.Extensions" Version="1.1.0" />
     <PackageReference Include="Microsoft.SourceLink.Github" Version="1.1.1" PrivateAssets="All" />
 	</ItemGroup>
